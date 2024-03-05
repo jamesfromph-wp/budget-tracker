@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.primary {
+  @apply text-sky-400/90 border-sky-400/90 placeholder:text-sky-400/90;
+}
+
+.secondary {
+  @apply text-black/90;
+}
+
+.pie-label {
+  @apply absolute top-1/2 left-1/2 bg-gray-100 w-3/5 h-3/5 -translate-x-1/2 -translate-y-1/2 rounded-full;
+}
